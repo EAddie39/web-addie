@@ -1,8 +1,13 @@
 body {
-  font-family: Roboto, sans-serif;
-  margin: 0;
-  padding: 0;
+ font-family: Montserrat, sans-serif;
   background-color: #f4f4f4;
+  display: flex; /* Use flexbox to center content */
+  justify-content: center; /* Align items horizontally to the center */
+  align-items: center; /* Align items vertically to the center */
+  height: 100vh; /* Take up the full viewport height */
+  min-height: 100vh; /* Ensure it takes at least full screen */
+  flex-direction: column; /* Stack content vertically */
+  text-align: center;
 }
 
 header {

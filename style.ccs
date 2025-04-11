@@ -14,22 +14,35 @@ header {
   background-color: #333;
   color: white;
   padding: 20px;
-  text-align: center;
+  text-align: center; /* Center the heading text */
+}
+
+nav {
+  width: 100%; /* Make nav span the entire width */
+  background-color: #444; /* Darker background for the nav */
+  padding: 10px 0; /* Space above and below the links */
 }
 
 nav ul {
   list-style: none;
+  display: flex; /* Use flexbox to lay out list items horizontally */
+  justify-content: center; /* Center the list items */
   padding: 0;
 }
 
 nav li {
-  display: inline;
-  margin: 0 10px;
+  margin: 0 15px; /* Space out the list items */
 }
 
 nav a {
   color: white;
   text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #f0f0f0; /* Slight change in color on hover */
 }
 
 .gallery {

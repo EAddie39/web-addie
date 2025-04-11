@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
  font-family: Montserrat, sans-serif;
   background-color: #f4f4f4;
@@ -21,6 +27,9 @@ nav {
   width: 100%; /* Make nav span the entire width */
   background-color: #444; /* Darker background for the nav */
   padding: 10px 0; /* Space above and below the links */
+  position: sticky; /* Makes the nav sticky */
+  top: 0; /* Sticks the nav to the top */
+  z-index: 100; /* Ensures it stays above other content when scrolling */
 }
 
 nav ul {

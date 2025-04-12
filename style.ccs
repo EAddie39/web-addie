@@ -1,15 +1,9 @@
 body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
   margin: 0;
   padding: 0:
-  font-family: 'Montserrat', sans-serif;
   background-color: #f4f4f4;
-  display: flex; /* Use flexbox to center content */
-  justify-content: center; /* Align items horizontally to the center */
-  align-items: center; /* Align items vertically to the center */
-  height: 100vh; /* Take up the full viewport height */
-  min-height: 100vh; /* Ensure it takes at least full screen */
-  flex-direction: column; /* Stack content vertically */
-  text-align: center;
 }
 
 header {
@@ -17,37 +11,28 @@ header {
   background-color: #333;
   color: white;
   padding: 20px;
-  text-align: center; /* Center the heading text */
 }
 
 nav {
+  background-color: #444;
   font-family: 'Montserrat', sans-serif;
-  width: 100%; /* Make nav span the entire width */
-  background-color: #444; /* Darker background for the nav */
-  padding: 10px 0; /* Space above and below the links */
-  position: sticky; /* Makes the nav sticky */
-  top: 0; /* Sticks the nav to the top */
-  z-index: 100; /* Ensures it stays above other content when scrolling */
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  padding: 10px 0; 
 }
 
 nav ul {
-  font-family: 'Montserrat', sans-serif;
   list-style: none;
-  display: flex; /* Use flexbox to lay out list items horizontally */
-  justify-content: center; /* Center the list items */
   padding: 0;
-}
-
-nav li {
-  font-family: 'Montserrat', sans-serif;
-  margin: 0 15px; /* Space out the list items */
+  display: flex;
+  justify-content: center;
+  gap: 30px;
 }
 
 nav a {
-  font-family: 'Montserrat', sans-serif;
-  color: white;
   text-decoration: none;
-  font-size: 18px;
+  color: #333;
   font-weight: bold;
 }
 
@@ -56,18 +41,25 @@ nav a:hover {
 }
 
 .gallery {
-  font-family: 'Montserrat', sans-serif;
   display: flex;
-  justify-content: space-around;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
   padding: 20px;
 }
 
 .gallery img {
-  width: 30%;
-  border-radius: 5px;
+  width: 300px;
+  border-radius: 8px;
   transition: transform 0.3s ease;
 }
 
 .gallery img:hover {
-  transform: scale(1.1);
+  transform: scale(1.05);
+}
+
+footer {
+  background-color: #222;
+  color: #fff;
+  padding: 20px;
 }

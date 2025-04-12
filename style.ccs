@@ -60,6 +60,7 @@ nav a:hover {
 }
 
 .gallery {
+  font-family: 'Montserrat', sans-serif;
   display: flex;
   justify-content: space-around;
   padding: 20px;

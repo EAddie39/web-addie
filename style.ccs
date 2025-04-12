@@ -5,7 +5,7 @@
 }
 
 body {
- font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   background-color: #f4f4f4;
   display: flex; /* Use flexbox to center content */
   justify-content: center; /* Align items horizontally to the center */
@@ -17,6 +17,7 @@ body {
 }
 
 header {
+  font-family: 'Montserrat', sans-serif;
   background-color: #333;
   color: white;
   padding: 20px;
@@ -24,6 +25,7 @@ header {
 }
 
 nav {
+  font-family: 'Montserrat', sans-serif;
   width: 100%; /* Make nav span the entire width */
   background-color: #444; /* Darker background for the nav */
   padding: 10px 0; /* Space above and below the links */
@@ -33,6 +35,7 @@ nav {
 }
 
 nav ul {
+  font-family: 'Montserrat', sans-serif;
   list-style: none;
   display: flex; /* Use flexbox to lay out list items horizontally */
   justify-content: center; /* Center the list items */
@@ -40,10 +43,12 @@ nav ul {
 }
 
 nav li {
+  font-family: 'Montserrat', sans-serif;
   margin: 0 15px; /* Space out the list items */
 }
 
 nav a {
+  font-family: 'Montserrat', sans-serif;
   color: white;
   text-decoration: none;
   font-size: 18px;
